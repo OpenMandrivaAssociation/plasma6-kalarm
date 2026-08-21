@@ -5,7 +5,7 @@
 
 Summary:	KDE personal alarm message, command and email scheduler
 Name:		kalarm
-Version:	26.04.3
+Version:	26.08.0
 Release:	%{?git:0.%{git}.}1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
@@ -45,7 +45,7 @@ BuildRequires:	cmake(KPim6AkonadiMime)
 BuildRequires:	cmake(KF6CalendarCore)
 BuildRequires:	cmake(KPim6CalendarUtils)
 BuildRequires:  cmake(KPim6IdentityManagementWidgets)
-BuildRequires:  cmake(KPim6Mime)
+BuildRequires:  cmake(KF6Mime)
 BuildRequires:  cmake(KPim6AkonadiContactWidgets)
 BuildRequires:  cmake(KPim6AkonadiMime)
 BuildRequires:  cmake(KPim6MailTransport)
@@ -55,7 +55,7 @@ BuildRequires:	cmake(KPim6IdentityManagementCore)
 BuildRequires:	cmake(KPim6Libkdepim)
 BuildRequires:	cmake(KPim6MailCommon)
 BuildRequires:	cmake(KPim6MailTransport)
-BuildRequires:	cmake(KPim6Mime)
+BuildRequires:	cmake(KF6Mime)
 BuildRequires:	cmake(KPim6PimCommon)
 BuildRequires:	cmake(KPim6TextEdit)
 BuildRequires:	cmake(KF6GlobalAccel)
